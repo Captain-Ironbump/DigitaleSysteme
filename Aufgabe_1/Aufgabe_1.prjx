@@ -1,6 +1,7 @@
 KEY LIBERO "2024.1"
 KEY CAPTURE "2024.1.0.3"
 KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
 KEY VERILOGMODE "SYSTEMVERILOG"
@@ -15,7 +16,9 @@ KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "0"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -29,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\lu121lin\Documents\Libro\Uebungen\Aufgabe_1"
+KEY ProjectLocation "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_1"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -44,33 +47,34 @@ KEY Vendor "Actel"
 KEY ActiveRoot "aufgabe1::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
-CURREV=1
+VALUE="Impl2",NUM=2
+CURREV=2
 ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd,hdl"
+STATE="utd"
+TIME="1732617611"
+SIZE="2060"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd,hdl"
+STATE="utd"
+TIME="1732621660"
+SIZE="4627"
+ENDFILE
 VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.pdc,io_pdc"
 STATE="utd"
 TIME="1732013306"
 SIZE="4475"
 IS_READONLY="TRUE"
 ENDFILE
-VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd,hdl"
-STATE="utd"
-TIME="1732013057"
-SIZE="2060"
-ENDFILE
-VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd,hdl"
-STATE="utd"
-TIME="1732016728"
-SIZE="1612"
-ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
 LIST "aufgabe1::work"
-FILE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd,hdl"
+FILE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd,hdl"
 LIST PNRConstraints
 VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.pdc,io_pdc"
 ENDLIST
@@ -186,18 +190,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd;0
-Reports;Reports;0
-ReportsCurrentItem;Project Summary:Aufgabe_1.log
-HDL;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd;0
-StartPage;StartPage;0
-ACTIVEVIEW;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd
 ENDLIST
 LIST ModuleSubBlockList
-LIST "aufgabe1::work","C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd","FALSE","FALSE"
-SUBBLOCK "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
+LIST "aufgabe1::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd","FALSE","FALSE"
+SUBBLOCK "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
 ENDLIST
-LIST "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
+LIST "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
