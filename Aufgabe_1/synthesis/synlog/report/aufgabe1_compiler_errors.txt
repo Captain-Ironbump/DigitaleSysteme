@@ -1,0 +1,4 @@
+@E: CD242 :"C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd":77:20:77:23|Expecting ;
+@E: CD415 :"C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd":77:20:77:23|Expecting keyword 'end'
+@E: Parse errors encountered - exiting
+
