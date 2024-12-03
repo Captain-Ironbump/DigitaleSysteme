@@ -74,6 +74,11 @@ STATE="utd"
 TIME="1733221932"
 SIZE="965"
 ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1733226310"
+SIZE="159"
+ENDFILE
 VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.pdc,io_pdc"
 STATE="utd"
 TIME="1732013306"
@@ -87,8 +92,8 @@ SIZE="2060"
 ENDFILE
 VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd,hdl"
 STATE="utd"
-TIME="1733221374"
-SIZE="4627"
+TIME="1733226621"
+SIZE="4451"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -130,6 +135,9 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -214,7 +222,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="C:\Microchip\Libero_SoC_v2024.1\ModelSimPro\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l testbench_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -275,8 +283,13 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+Reports;Reports;0
+ReportsCurrentItem;Run Programming Action:aufgabe1_PROGRAM.log
+HDL;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd;0
+HDL;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd;0
+HDL;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.pdc;0
+Constraint Manager;Constraint Manager;0
+ACTIVEVIEW;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "aufgabe1::work","C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd","FALSE","FALSE"
