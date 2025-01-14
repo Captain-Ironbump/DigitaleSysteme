@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.aufgabe2  -multisrs  C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\synthesis\synwork\aufgabe2_comp.srs  -osyn  C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\synthesis\synwork\aufgabe2_mult.srs  -log  C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\synthesis\synlog\aufgabe2_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top work.aufgabe2 -multisrs ..\synwork\aufgabe2_comp.srs -osyn ..\synwork\aufgabe2_mult.srs -log ..\synlog\aufgabe2_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\aufgabe2_comp.srs|io:i|time:1736852933|size:9884|exec:0|csum:CB5A8B739213F27A6805466B3FA8E086
+file:..\synwork\aufgabe2_mult.srs|io:o|time:1736852935|size:3475|exec:0|csum:
+file:..\synlog\aufgabe2_multi_srs_gen.srr|io:o|time:1736852935|size:1053|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

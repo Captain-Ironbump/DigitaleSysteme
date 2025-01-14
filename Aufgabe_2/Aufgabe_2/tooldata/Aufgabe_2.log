@@ -1,0 +1,16 @@
+Project Name: Aufgabe_2
+Location: C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S005-TQ144
+Family         : SmartFusion2
+Die            : M2S005
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

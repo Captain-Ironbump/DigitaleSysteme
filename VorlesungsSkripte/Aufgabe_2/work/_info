@@ -1,0 +1,183 @@
+m255
+K4
+z2
+!s11e vcom 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2
+Eaufgabe2
+Z1 w1736851385
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R0
+Z4 8C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/aufgabe2.vhd
+Z5 FC:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/aufgabe2.vhd
+l0
+L5 1
+VDZ??G`Iz@mG=cjg?g6dIU3
+!s100 e<<;U5TaZMcJN?5VBAc[h3
+Z6 OW;C;2023.4;77
+32
+Z7 !s110 1736852736
+!i10b 1
+Z8 !s108 1736852736.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/aufgabe2.vhd|
+Z10 !s107 C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/aufgabe2.vhd|
+!i113 1
+Z11 o-work work -O0
+Z12 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+DEx4 work 8 aufgabe2 0 22 DZ??G`Iz@mG=cjg?g6dIU3
+!i122 1
+l72
+L17 101
+VOJcJj^CUEM88O=LhXT]IO3
+!s100 8f;?YE[@8EQZNh5]GNUJJ2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Estd_counter
+Z13 w1736852043
+Z14 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+R2
+R3
+!i122 2
+R0
+Z16 8C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/std_counter.vhd
+Z17 FC:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/std_counter.vhd
+l0
+L6 1
+V7lbE><ac^ahj<EH7ofj[T3
+!s100 SloV4g<zlXh=z3D?Jcz`l2
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/std_counter.vhd|
+Z19 !s107 C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/std_counter.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R15
+R2
+R3
+DEx4 work 11 std_counter 0 22 7lbE><ac^ahj<EH7ofj[T3
+!i122 2
+l50
+L45 48
+V@[cYnQlLVeZ<AYV`iLl^F1
+!s100 BmWzHh1J[^Wb6f7`l`QCc1
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Estd_counter_tb
+R1
+!i122 3
+R0
+Z20 8C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/std_counter_tb.vhd
+Z21 FC:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/std_counter_tb.vhd
+l0
+L1 1
+Vaa1^YNndM?Dc9Bc2Vaak03
+!s100 glQ2m01jLj04hdSb`dMFI3
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/std_counter_tb.vhd|
+Z23 !s107 C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/std_counter_tb.vhd|
+!i113 1
+R11
+R12
+Averhalten
+DEx4 work 14 std_counter_tb 0 22 aa1^YNndM?Dc9Bc2Vaak03
+R14
+R15
+R3
+R2
+!i122 3
+l127
+L11 185
+Vh>bDcfN4___c:K2k3lPc<2
+!s100 AilKIGgI<XZzUW@?[_9ZT1
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Esync_buffer
+Z24 w1736851853
+R14
+R15
+R2
+R3
+!i122 4
+R0
+Z25 8C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/sync_buffer.vhd
+Z26 FC:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/sync_buffer.vhd
+l0
+L6 1
+V7OMU0_mUmbo7aW9i`YIO10
+!s100 Oh9geW8gLPJanTl=k[0zQ3
+R6
+32
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/sync_buffer.vhd|
+!s107 C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/sync_buffer.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R15
+R2
+R3
+DEx4 work 11 sync_buffer 0 22 7OMU0_mUmbo7aW9i`YIO10
+!i122 4
+l32
+L22 110
+VQ07>@]91V[l^1ZCOJiF7m0
+!s100 Ah::9O[6I]B<QS?a>0NR:2
+R6
+32
+R7
+!i10b 1
+R8
+R27
+Z28 !s107 C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/VorlesungsSkripte/Aufgabe_2/sync_buffer.vhd|
+!i113 1
+R11
+R12
