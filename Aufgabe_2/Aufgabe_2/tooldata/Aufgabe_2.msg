@@ -22,6 +22,3 @@ Implementation;Synthesis||FP130||@N: Promoting Net rst_arst on CLKINT  I_85 ||au
 Implementation;Synthesis||FP130||@N: Promoting Net clk_c on CLKINT  I_86 ||aufgabe2.srr(353);liberoaction://cross_probe/hdl/file/'<project>\synthesis\aufgabe2.srr'/linenumber/353||null;null
 Implementation;Synthesis||BW156||@W:Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.||aufgabe2.srr(381);liberoaction://cross_probe/hdl/file/'<project>\synthesis\aufgabe2.srr'/linenumber/381||null;null
 Implementation;Synthesis||MT420||@W:Found inferred clock aufgabe2|clk with period 10.00ns. Please declare a user-defined clock on port clk.||aufgabe2.srr(391);liberoaction://cross_probe/hdl/file/'<project>\synthesis\aufgabe2.srr'/linenumber/391||null;null
-Implementation;Place and Route||OnlineHelp;liberoaction://open_online_help/98369539||Info: I/O Bank and Globals Assigner detected (7) out of (7) I/O Bank(s) with locked I/O technologies.||(null);(null)||(null);(null)
-Implementation;Place and Route;RootName:aufgabe2
-Implementation;Place and Route||(null)||Please refer to the log file for details about 12 Info(s)||aufgabe2_layout_log.log;liberoaction://open_report/file/aufgabe2_layout_log.log||(null);(null)
