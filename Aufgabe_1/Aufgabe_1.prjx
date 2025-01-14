@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_1"
+KEY ProjectLocation "C:\Users\lu121lin\Documents\Libro\Uebungen\Aufgabe_1"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -48,20 +48,36 @@ KEY ActiveRoot "aufgabe1::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 VALUE="Impl2",NUM=2
-CURREV=2
+VALUE="Impl3",NUM=3
+CURREV=3
 ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
-VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd,hdl"
+VALUE "<project>\synthesis\aufgabe1.so,so"
 STATE="utd"
-TIME="1732617611"
-SIZE="2060"
+TIME="1733221933"
+SIZE="243"
 ENDFILE
-VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd,hdl"
+VALUE "<project>\synthesis\aufgabe1.vm,syn_vm"
 STATE="utd"
-TIME="1732621660"
-SIZE="4627"
+TIME="1733221932"
+SIZE="11736"
+ENDFILE
+VALUE "<project>\synthesis\aufgabe1_syn.prj,prj"
+STATE="utd"
+TIME="1733221933"
+SIZE="2790"
+ENDFILE
+VALUE "<project>\synthesis\aufgabe1_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1733221932"
+SIZE="965"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1733226310"
+SIZE="159"
 ENDFILE
 VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.pdc,io_pdc"
 STATE="utd"
@@ -69,14 +85,59 @@ TIME="1732013306"
 SIZE="4475"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd,hdl"
+STATE="utd"
+TIME="1732013057"
+SIZE="2060"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd,hdl"
+STATE="utd"
+TIME="1733226621"
+SIZE="4451"
+ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
 LIST "aufgabe1::work"
-FILE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd,hdl"
+FILE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd,hdl"
 LIST PNRConstraints
 VALUE "C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\aufgabe1.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSYNTHESIS(<project>\synthesis\aufgabe1.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSYNTHESIS(<project>\synthesis\aufgabe1.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -161,7 +222,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="C:\Microchip\Libero_SoC_v2024.1\ModelSimPro\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l testbench_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -177,6 +238,38 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "aufgabe1::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\aufgabe1.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSYNTHESIS(<project>\synthesis\aufgabe1.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSYNTHESIS(<project>\synthesis\aufgabe1.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -190,12 +283,19 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run Programming Action:aufgabe1_PROGRAM.log
+HDL;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd;0
+HDL;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd;0
+HDL;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.pdc;0
+Constraint Manager;Constraint Manager;0
+ACTIVEVIEW;C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd
 ENDLIST
 LIST ModuleSubBlockList
-LIST "aufgabe1::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd","FALSE","FALSE"
-SUBBLOCK "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
+LIST "aufgabe1::work","C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\aufgabe1.vhd","FALSE","FALSE"
+SUBBLOCK "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
 ENDLIST
-LIST "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
+LIST "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\Uebungen\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

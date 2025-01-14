@@ -19,7 +19,7 @@ ARCHITECTURE struktur OF hex4x7seg IS
     -- Modulo-2**14-Zaehler
     SIGNAL reg: std_logic_vector(13 DOWNTO 0);
     
-    SIGNAL strb: std_logic;
+    SIGNAL en: std_logic;
     
     SIGNAL sel: std_logic_vector(1 DOWNTO 0);
     
@@ -33,12 +33,12 @@ BEGIN
     p1: PROCESS (rst, clk) IS
     BEGIN
         IF rst=RSTDEF THEN
-            strb <= '0';
+            en <= '0';
             reg <= (OTHERS => '1');
         ELSIF rising_edge(clk) THEN
-            strb <= '0';
+            en <= '0';
             IF reg=RES THEN 
-                strb <= '1';
+                en <= '1';
             END IF;
             -- x^14 + x^8 + x^6 + x^1 + 1
             reg(13 DOWNTO 9) <= reg(12 DOWNTO 8);
@@ -57,13 +57,7 @@ BEGIN
         IF rst=RSTDEF THEN
             sel <= "00";
         ELSIF rising_edge(clk) THEN
-            IF sel="11" THEN
-                IF strb='1' THEN
-                    sel <= "00";
-                END IF;
-            ELSE
-                sel <= sel + strb;
-            END IF;
+            sel <= sel + en;
         END IF;
     END PROCESS;
 
