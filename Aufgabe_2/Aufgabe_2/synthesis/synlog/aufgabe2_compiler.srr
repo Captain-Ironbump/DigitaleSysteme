@@ -32,6 +32,8 @@ Synopsys VHDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 0
 
 @N|Running in 64-bit mode
 @N:"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd changed - recompiling
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\lib\lfsr_lib.vhd'.
@@ -39,6 +41,7 @@ Synopsys VHDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 0
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd'.
 VHDL syntax check successful!
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd":5:7:5:15|Synthesizing work.hex4x7seg.struktur.
@@ -54,17 +57,17 @@ Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used c
 @N: CD233 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd":28:16:28:17|Using sequential encoding for type tstate.
 Post processing for work.sync_buffer.behavior
 Running optimization stage 1 on sync_buffer .......
-Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Post processing for work.sync_module.behavior
 Running optimization stage 1 on sync_module .......
-Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Post processing for work.aufgabe2.structure
 Running optimization stage 1 on aufgabe2 .......
-Finished optimization stage 1 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on sync_buffer .......
-Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on sync_module .......
-Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on std_counter .......
 Finished optimization stage 2 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
 Running optimization stage 2 on hex4x7seg .......
@@ -83,7 +86,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:25:17 2025
+# Tue Jan 14 12:29:18 2025
 
 ###########################################################]
 ###########################################################[
@@ -103,13 +106,14 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
 @N|Running in 64-bit mode
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:25:17 2025
+# Tue Jan 14 12:29:18 2025
 
 ###########################################################]
 
@@ -119,11 +123,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 22MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:25:17 2025
+# Tue Jan 14 12:29:18 2025
 
 ###########################################################]

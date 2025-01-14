@@ -1,4 +1,4 @@
-# Tue Jan 14 12:25:19 2025
+# Tue Jan 14 12:29:20 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -39,14 +39,14 @@ Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic.
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
 
-@N: BZ173 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":105:16:105:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic.
-@N: BZ173 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":105:16:105:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic.
-@N: MO106 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":105:16:105:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
+@N: BZ173 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":99:16:99:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic.
+@N: BZ173 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":99:16:99:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic.
+@N: MO106 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":99:16:99:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
@@ -60,13 +60,13 @@ NConnInternalConnection caching is on
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
 
 
 Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
@@ -85,7 +85,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 256MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
 
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
@@ -108,10 +108,10 @@ Writing Verilog Simulation files
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
 
 
 Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
@@ -120,7 +120,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Jan 14 12:25:20 2025
+# Timing report written on Tue Jan 14 12:29:21 2025
 #
 
 
@@ -319,9 +319,9 @@ Total number of LUTs after P&R:  131 + 0 + 0 + 0 = 131;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 124MB peak: 257MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 257MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jan 14 12:25:20 2025
+# Tue Jan 14 12:29:21 2025
 
 ###########################################################]

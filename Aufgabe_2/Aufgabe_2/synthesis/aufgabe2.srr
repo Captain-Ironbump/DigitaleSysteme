@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: F130-06
 
-# Tue Jan 14 12:25:16 2025
+# Tue Jan 14 12:29:17 2025
 
 #Implementation: synthesis
 
@@ -41,6 +41,8 @@ Synopsys VHDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 0
 
 @N|Running in 64-bit mode
 @N:"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd changed - recompiling
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\lib\lfsr_lib.vhd'.
@@ -48,6 +50,7 @@ Synopsys VHDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 0
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd'.
 VHDL syntax check successful!
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd":5:7:5:15|Synthesizing work.hex4x7seg.struktur.
@@ -63,17 +66,17 @@ Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used c
 @N: CD233 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd":28:16:28:17|Using sequential encoding for type tstate.
 Post processing for work.sync_buffer.behavior
 Running optimization stage 1 on sync_buffer .......
-Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Post processing for work.sync_module.behavior
 Running optimization stage 1 on sync_module .......
-Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Post processing for work.aufgabe2.structure
 Running optimization stage 1 on aufgabe2 .......
-Finished optimization stage 1 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on aufgabe2 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on sync_buffer .......
-Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 2 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on sync_module .......
-Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 2 on sync_module (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on std_counter .......
 Finished optimization stage 2 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
 Running optimization stage 2 on hex4x7seg .......
@@ -92,7 +95,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:25:17 2025
+# Tue Jan 14 12:29:18 2025
 
 ###########################################################]
 ###########################################################[
@@ -112,13 +115,14 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
 @N|Running in 64-bit mode
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:25:17 2025
+# Tue Jan 14 12:29:18 2025
 
 ###########################################################]
 
@@ -128,12 +132,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 22MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:25:17 2025
+# Tue Jan 14 12:29:18 2025
 
 ###########################################################]
 ###########################################################[
@@ -153,18 +157,19 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
 @N|Running in 64-bit mode
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\synthesis\synwork\aufgabe2_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:25:18 2025
+# Tue Jan 14 12:29:19 2025
 
 ###########################################################]
 Premap Report
 
-# Tue Jan 14 12:25:18 2025
+# Tue Jan 14 12:29:19 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -255,22 +260,22 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 252MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 252MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jan 14 12:25:19 2025
+# Tue Jan 14 12:29:20 2025
 
 ###########################################################]
 Map & Optimize Report
 
-# Tue Jan 14 12:25:19 2025
+# Tue Jan 14 12:29:20 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -311,14 +316,14 @@ Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic.
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
 
-@N: BZ173 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":105:16:105:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic.
-@N: BZ173 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":105:16:105:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic.
-@N: MO106 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":105:16:105:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
+@N: BZ173 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":99:16:99:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic.
+@N: BZ173 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":99:16:99:24|ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) mapped in logic.
+@N: MO106 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_1\hex4x7seg.vhd":99:16:99:24|Found ROM seg_1[7:1] (in view: work.hex4x7seg(struktur)) with 16 words by 7 bits.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
@@ -332,13 +337,13 @@ NConnInternalConnection caching is on
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
 
 
 Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
@@ -357,7 +362,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 256MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
 
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
@@ -380,10 +385,10 @@ Writing Verilog Simulation files
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
 
 
 Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
@@ -392,7 +397,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Jan 14 12:25:20 2025
+# Timing report written on Tue Jan 14 12:29:21 2025
 #
 
 
@@ -591,9 +596,9 @@ Total number of LUTs after P&R:  131 + 0 + 0 + 0 = 131;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 124MB peak: 257MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 257MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jan 14 12:25:20 2025
+# Tue Jan 14 12:29:21 2025
 
 ###########################################################]

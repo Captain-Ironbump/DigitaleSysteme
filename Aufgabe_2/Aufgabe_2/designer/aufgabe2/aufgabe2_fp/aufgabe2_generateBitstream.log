@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\designer\aufgabe2\aufgabe2_fp\aufgabe2.pro'
+PDB file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\designer\aufgabe2\aufgabe2.pdb' has been loaded successfully.
+DESIGN : aufgabe2;  CHECKSUM : B34B;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\designer\aufgabe2\aufgabe2.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\designer\aufgabe2\aufgabe2.ppd'; file programs Fabric.
+Fabric component bitstream digest: 6daecb6df590ebd66baa4780016d3530e2c65111fd1360191fca6e420b9f6d88
+Entire bitstream digest: b04d727a371f02fa5f6ebf28b77e335cddaa02a737eb7d0341e5f931246f0ff8
+Finished: Tue Jan 14 12:33:33 2025 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

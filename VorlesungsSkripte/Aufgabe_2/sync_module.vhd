@@ -26,31 +26,25 @@ ARCHITECTURE behavior OF sync_module IS
     COMPONENT sync_buffer IS
 		GENERIC(RSTDEF : STD_LOGIC);
 		PORT(
-			rst : IN STD_LOGIC;     -- reset, RSTDEF active
-			clk : IN STD_LOGIC;     -- clock, rising edge
-			en : IN STD_LOGIC;      -- enable, high active
-			swrst : IN STD_LOGIC;   -- software reset, RSTDEF active
-			din : IN STD_LOGIC;     -- data bit, input
-			dout : OUT STD_LOGIC;   -- data bit, output
-			redge : OUT STD_LOGIC;  -- rising  edge on din detected
-			fedge : OUT STD_LOGIC); -- falling edge on din detected
+			rst : IN STD_LOGIC;
+			clk : IN STD_LOGIC;
+			en : IN STD_LOGIC;
+			swrst : IN STD_LOGIC;
+			din : IN STD_LOGIC;
+			dout : OUT STD_LOGIC;
+			redge : OUT STD_LOGIC;
+			fedge : OUT STD_LOGIC);
 	END COMPONENT;
     
     CONSTANT    LENDEF: natural := 15;
-    CONSTANT    POLY: std_logic_vector(LENDEF DOWNTO 0)   := "1000000000000011";    -- Polynom: x^15 + x^1 + 1
-    CONSTANT    RES:  std_logic_vector(LENDEF-1 DOWNTO 0) := "111111111111111";     -- mod (2^15 - 1)
+    CONSTANT    POLY: std_logic_vector(LENDEF DOWNTO 0)   := "1000000000000011";
+    CONSTANT    RES:  std_logic_vector(LENDEF-1 DOWNTO 0) := "111111111111111";
     
-    SIGNAL      strb: std_logic;    -- enable signal for mod15 counter
+    SIGNAL      strb: std_logic;
     SIGNAL      reg:  std_logic_vector(LENDEF-1 DOWNTO 0);
     
 BEGIN
 
-    -- Modulo-2^15-Counter -----------------------------------------------------
-    -- Reduce input frequence from 50MHz to a lower value
-    -- The value depends on the RES vector. If the RES vector is 111111111111111
-    -- the counter will count up to 2^15-1 therefore reducing the input frequency
-    -- to round about 1,525 kHz
-    ----------------------------------------------------------------------------
     p1: PROCESS(rst, clk) IS
     BEGIN
         IF rst = RSTDEF THEN
@@ -60,7 +54,6 @@ BEGIN
         
             strb <= '0';
             
-            -- Use bib function to realize LFSR this time
             reg <= lfsr(reg, POLY, '0');
             
             IF reg=RES THEN
@@ -70,9 +63,7 @@ BEGIN
         END IF;
     END PROCESS;
     
-    -- Synchronizer -----------------------------------------------------------
-    
-    -- Syncbuffer for BTN1
+
     buf1: sync_buffer
     GENERIC MAP(RSTDEF => RSTDEF)
     PORT MAP(   rst => rst,
@@ -84,7 +75,7 @@ BEGIN
                 redge => OPEN,
                 fedge => inc);
     
-    -- Syncbuffer for BTN2
+    
     buf2: sync_buffer
     GENERIC MAP(RSTDEF => RSTDEF)
     PORT MAP(   rst => rst,
@@ -96,8 +87,7 @@ BEGIN
                 redge => OPEN,
                 fedge => dec);
                 
-    -- Syncbuffer for BTN3
-    -- CHECK IF redge IS CORRECT
+
     buf3: sync_buffer
     GENERIC MAP(RSTDEF => RSTDEF)
     PORT MAP(   rst => rst,

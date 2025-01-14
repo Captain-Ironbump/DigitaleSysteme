@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "V-2023.09M"
 // Program "Synplify Pro", Mapper "map202309act, Build 044R"
-// Tue Jan 14 12:25:20 2025
+// Tue Jan 14 12:29:21 2025
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -2029,7 +2029,7 @@ wire [3:0] seg_sel;
 wire [3:0] seg_sel_3_1_0_y0;
 wire [3:0] seg_sel_3_1_0_co0;
 wire [3:0] seg_sel_3_1_0_wmux_S;
-wire strb_Z ;
+wire en_Z ;
 wire VCC ;
 wire un1_reg ;
 wire GND ;
@@ -2038,8 +2038,8 @@ wire un1_reg_9 ;
 wire un1_reg_8 ;
 wire un1_reg_7 ;
 // @12:35
-  SLE strb (
-	.Q(strb_Z),
+  SLE en (
+	.Q(en_Z),
 	.ADn(VCC),
 	.ALn(rst_arst),
 	.CLK(clk_c),
@@ -2241,7 +2241,7 @@ wire un1_reg_7 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @12:112
+// @12:106
   ARI1 \seg_sel_3_1_0_wmux_0[0]  (
 	.FCO(seg_sel_3_1_0_co1[0]),
 	.S(seg_sel_3_1_0_wmux_0_S[0]),
@@ -2253,7 +2253,7 @@ wire un1_reg_7 ;
 	.FCI(seg_sel_3_1_0_co0[0])
 );
 defparam \seg_sel_3_1_0_wmux_0[0] .INIT=20'h0F588;
-// @12:112
+// @12:106
   ARI1 \seg_sel_3_1_0_wmux[0]  (
 	.FCO(seg_sel_3_1_0_co0[0]),
 	.S(seg_sel_3_1_0_wmux_S[0]),
@@ -2265,7 +2265,7 @@ defparam \seg_sel_3_1_0_wmux_0[0] .INIT=20'h0F588;
 	.FCI(VCC)
 );
 defparam \seg_sel_3_1_0_wmux[0] .INIT=20'h0FA44;
-// @12:112
+// @12:106
   ARI1 \seg_sel_3_1_0_wmux_0[1]  (
 	.FCO(seg_sel_3_1_0_co1[1]),
 	.S(seg_sel_3_1_0_wmux_0_S[1]),
@@ -2277,7 +2277,7 @@ defparam \seg_sel_3_1_0_wmux[0] .INIT=20'h0FA44;
 	.FCI(seg_sel_3_1_0_co0[1])
 );
 defparam \seg_sel_3_1_0_wmux_0[1] .INIT=20'h0F588;
-// @12:112
+// @12:106
   ARI1 \seg_sel_3_1_0_wmux[1]  (
 	.FCO(seg_sel_3_1_0_co0[1]),
 	.S(seg_sel_3_1_0_wmux_S[1]),
@@ -2289,7 +2289,7 @@ defparam \seg_sel_3_1_0_wmux_0[1] .INIT=20'h0F588;
 	.FCI(VCC)
 );
 defparam \seg_sel_3_1_0_wmux[1] .INIT=20'h0FA44;
-// @12:112
+// @12:106
   ARI1 \seg_sel_3_1_0_wmux_0[3]  (
 	.FCO(seg_sel_3_1_0_co1[3]),
 	.S(seg_sel_3_1_0_wmux_0_S[3]),
@@ -2301,7 +2301,7 @@ defparam \seg_sel_3_1_0_wmux[1] .INIT=20'h0FA44;
 	.FCI(seg_sel_3_1_0_co0[3])
 );
 defparam \seg_sel_3_1_0_wmux_0[3] .INIT=20'h0F588;
-// @12:112
+// @12:106
   ARI1 \seg_sel_3_1_0_wmux[3]  (
 	.FCO(seg_sel_3_1_0_co0[3]),
 	.S(seg_sel_3_1_0_wmux_S[3]),
@@ -2313,7 +2313,7 @@ defparam \seg_sel_3_1_0_wmux_0[3] .INIT=20'h0F588;
 	.FCI(VCC)
 );
 defparam \seg_sel_3_1_0_wmux[3] .INIT=20'h0FA44;
-// @12:112
+// @12:106
   ARI1 \seg_sel_3_1_0_wmux_0[2]  (
 	.FCO(seg_sel_3_1_0_co1[2]),
 	.S(seg_sel_3_1_0_wmux_0_S[2]),
@@ -2325,7 +2325,7 @@ defparam \seg_sel_3_1_0_wmux[3] .INIT=20'h0FA44;
 	.FCI(seg_sel_3_1_0_co0[2])
 );
 defparam \seg_sel_3_1_0_wmux_0[2] .INIT=20'h0F588;
-// @12:112
+// @12:106
   ARI1 \seg_sel_3_1_0_wmux[2]  (
 	.FCO(seg_sel_3_1_0_co0[2]),
 	.S(seg_sel_3_1_0_wmux_S[2]),
@@ -2344,10 +2344,10 @@ defparam \seg_sel_3_1_0_wmux[2] .INIT=20'h0FA44;
 	.Y(un1_reg_6)
 );
 defparam \p1.un1_reg_6 .INIT=4'h8;
-// @12:65
+// @12:60
   CFG2 \sel_RNO[0]  (
 	.A(sel_Z[0]),
-	.B(strb_Z),
+	.B(en_Z),
 	.Y(sel_RNO_Z[0])
 );
 defparam \sel_RNO[0] .INIT=4'h6;
@@ -2399,7 +2399,7 @@ defparam \p1.un1_reg_8 .INIT=16'h8000;
 	.Y(un1_reg_7)
 );
 defparam \p1.un1_reg_7 .INIT=16'h8000;
-// @12:77
+// @12:71
   CFG3 \ena[0]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -2407,7 +2407,7 @@ defparam \p1.un1_reg_7 .INIT=16'h8000;
 	.Y(digi_c[1])
 );
 defparam \ena[0] .INIT=8'h10;
-// @12:77
+// @12:71
   CFG3 \ena[2]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -2415,15 +2415,15 @@ defparam \ena[0] .INIT=8'h10;
 	.Y(digi_c[3])
 );
 defparam \ena[2] .INIT=8'h20;
-// @12:65
+// @12:60
   CFG3 \sel_RNO[1]  (
-	.A(strb_Z),
-	.B(sel_Z[1]),
-	.C(sel_Z[0]),
+	.A(sel_Z[0]),
+	.B(en_Z),
+	.C(sel_Z[1]),
 	.Y(sel_RNO_Z[1])
 );
-defparam \sel_RNO[1] .INIT=8'h6C;
-// @12:77
+defparam \sel_RNO[1] .INIT=8'h78;
+// @12:71
   CFG3 \ena[3]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -2431,7 +2431,7 @@ defparam \sel_RNO[1] .INIT=8'h6C;
 	.Y(digi_c[4])
 );
 defparam \ena[3] .INIT=8'h80;
-// @12:77
+// @12:71
   CFG3 \ena[1]  (
 	.A(sel_Z[1]),
 	.B(sel_Z[0]),
@@ -2448,7 +2448,7 @@ defparam \ena[1] .INIT=8'h40;
 	.Y(un1_reg)
 );
 defparam \p1.un1_reg .INIT=16'h8000;
-// @12:105
+// @12:99
   CFG4 \seg_1_7_1_.m18  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),
@@ -2457,7 +2457,7 @@ defparam \p1.un1_reg .INIT=16'h8000;
 	.Y(seg_c[4])
 );
 defparam \seg_1_7_1_.m18 .INIT=16'h3EDB;
-// @12:105
+// @12:99
   CFG4 \seg_1_7_1_.m15  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),
@@ -2466,7 +2466,7 @@ defparam \seg_1_7_1_.m18 .INIT=16'h3EDB;
 	.Y(seg_c[3])
 );
 defparam \seg_1_7_1_.m15 .INIT=16'h7F67;
-// @12:105
+// @12:99
   CFG4 \seg_1_7_1_.m10  (
 	.A(seg_sel[3]),
 	.B(seg_sel[2]),

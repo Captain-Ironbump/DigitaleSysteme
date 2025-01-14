@@ -20,10 +20,10 @@ END sync_buffer;
 -- zur Entity sync_buffer implementiert werden.
 --
 ARCHITECTURE behavior OF sync_buffer IS
-    SIGNAL q1:  std_logic;      -- output Q from Flip Flop 1
-    SIGNAL q2:  std_logic;      -- output Q from Flip Flop 2
-    SIGNAL q3:  std_logic;      -- output Q from Flip Flop 3
-    SIGNAL qH:  std_logic;      -- output Q from Hysteresis
+    SIGNAL q1:  std_logic;
+    SIGNAL q2:  std_logic;
+    SIGNAL q3:  std_logic;
+    SIGNAL qH:  std_logic;
     
     TYPE TState IS (S0, S1);
     SIGNAL state: TState;
@@ -31,13 +31,12 @@ ARCHITECTURE behavior OF sync_buffer IS
     
 BEGIN
 
-    -- First D-flip Flowp realised with the 1-Process Method
     flipFlop1: PROCESS(clk, rst) IS
     BEGIN
         IF rst=RSTDEF THEN
             q1 <= '0';
         ELSIF rising_edge(clk) THEN
-            q1 <= din;                -- default output
+            q1 <= din;
             IF swrst = RSTDEF THEN
                 q1 <= '0';
             END IF;
@@ -45,7 +44,6 @@ BEGIN
     END PROCESS flipFlop1;
     
     
-    -- Second D-flip Flowp realised with the 1-Process Method
     flipFlop2: PROCESS(clk, rst) IS
     BEGIN
         IF rst=RSTDEF THEN
@@ -59,14 +57,12 @@ BEGIN
     END PROCESS flipFlop2;
     
     
-    -- Hysteresis
     hysteresis: PROCESS(clk, rst) IS
     BEGIN
         IF rst=RSTDEF THEN
             state   <= S0;
             qH      <= '0';
             cnt     <= 0;
-            --reg <= (OTHERS => '1');
         ELSIF rising_edge(clk) THEN
             IF en = '1' THEN
 				CASE state IS
@@ -108,7 +104,6 @@ BEGIN
     END PROCESS hysteresis;
     
     
-    -- Third D-flip Flowp realised with the 1-Process Method
     flipFlop3: PROCESS(clk, rst) IS
     BEGIN
         IF rst=RSTDEF THEN
@@ -122,8 +117,6 @@ BEGIN
     END PROCESS flipFlop3;
     
     
-    -- Set Output of sync_buffer
-    -- See circuit diagram in task description
     fedge   <= NOT qH AND q3;
     dout    <= q3;
     redge   <= qH AND NOT q3;
