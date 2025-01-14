@@ -10,7 +10,6 @@ Running optimization stage 1 on std_counter .......
 Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.behavior.
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd":6:7:6:17|Synthesizing work.sync_buffer.behavior.
-@N: CD233 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd":28:16:28:17|Using sequential encoding for type tstate.
 Post processing for work.sync_buffer.behavior
 Running optimization stage 1 on sync_buffer .......
 Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)

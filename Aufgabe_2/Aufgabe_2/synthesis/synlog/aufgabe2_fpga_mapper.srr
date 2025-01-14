@@ -1,4 +1,4 @@
-# Tue Jan 14 12:29:20 2025
+# Tue Jan 14 12:59:52 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -46,7 +46,7 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 252MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
@@ -120,7 +120,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Jan 14 12:29:21 2025
+# Timing report written on Tue Jan 14 12:59:53 2025
 #
 
 
@@ -322,6 +322,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 257MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jan 14 12:29:21 2025
+# Tue Jan 14 12:59:53 2025
 
 ###########################################################]

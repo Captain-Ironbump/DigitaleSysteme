@@ -15,9 +15,11 @@ KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
-KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
-KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "0"
+KEY VendorTechnology_RESTRICTPROBEPINS "0"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
 KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M500"
@@ -41,6 +43,7 @@ KEY LossOfDataDRCSeverity "TRUE"
 KEY IdWidthMismatchDRCSeverity "TRUE"
 KEY SimulationType "VERILOG"
 KEY Vendor "Actel"
+KEY ActiveRoot "aufgabe2::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
@@ -48,10 +51,92 @@ ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
+VALUE "<project>\synthesis\aufgabe2.so,so"
+STATE="utd"
+TIME="1736852937"
+SIZE="260"
+ENDFILE
+VALUE "<project>\synthesis\aufgabe2.vm,syn_vm"
+STATE="utd"
+TIME="1736855917"
+SIZE="46048"
+ENDFILE
+VALUE "<project>\synthesis\aufgabe2_syn.prj,prj"
+STATE="utd"
+TIME="1736852937"
+SIZE="3327"
+ENDFILE
+VALUE "<project>\synthesis\aufgabe2_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1736852937"
+SIZE="965"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd,hdl"
+STATE="utd"
+TIME="1736853967"
+SIZE="4451"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.pdc,io_pdc"
+STATE="utd"
+TIME="1736851385"
+SIZE="4731"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd,hdl"
+STATE="utd"
+TIME="1736851385"
+SIZE="4654"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\lib\lfsr_lib.vhd,hdl"
+STATE="utd"
+TIME="1736852857"
+SIZE="1362"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd,hdl"
+STATE="utd"
+TIME="1736854836"
+SIZE="2718"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter_tb.vhd,hdl"
+STATE="utd"
+TIME="1736851385"
+SIZE="7086"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd,hdl"
+STATE="utd"
+TIME="1736855987"
+SIZE="2978"
+ENDFILE
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd,hdl"
+STATE="utd"
+TIME="1736854800"
+SIZE="2864"
+ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "aufgabe2::work"
+FILE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd,hdl"
+LIST PNRConstraints
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
@@ -150,6 +235,18 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "aufgabe2::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\aufgabe2.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -163,14 +260,44 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run Programming Action:aufgabe2_PROGRAM.log
+HDL;C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd;0
+HDL;C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd;0
+HDL;C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd;0
+HDL;C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd;0
+Constraint Manager;Constraint Manager;0
+HDL;C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.pdc;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
+LIST "aufgabe2::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd","FALSE","FALSE"
+SUBBLOCK "std_counter::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd","FALSE","FALSE"
+SUBBLOCK "sync_module::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd","FALSE","FALSE"
+SUBBLOCK "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "std_counter::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sync_buffer::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sync_module::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd","FALSE","FALSE"
+SUBBLOCK "sync_buffer::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "std_counter::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "hex4x7seg::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "lfsr_lib::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\lib\lfsr_lib.vhd","FALSE","FALSE"
+ENDLIST
+LIST "std_counter_tb::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter_tb.vhd","FALSE","FALSE"
+SUBBLOCK "std_counter::work","C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd","FALSE","FALSE"
+ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
 ENDLIST
 LIST IOTabList
+VALUE "C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.pdc"
 ENDLIST
 LIST FPTabList
 ENDLIST

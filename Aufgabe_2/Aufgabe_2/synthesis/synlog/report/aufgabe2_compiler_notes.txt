@@ -13,6 +13,5 @@
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd":6:7:6:17|Synthesizing work.std_counter.behavior.
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.behavior.
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd":6:7:6:17|Synthesizing work.sync_buffer.behavior.
-@N: CD233 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd":28:16:28:17|Using sequential encoding for type tstate.
 @N|Running in 64-bit mode
 

@@ -25,8 +25,7 @@ ARCHITECTURE behavior OF sync_buffer IS
     SIGNAL q3:  std_logic;
     SIGNAL qH:  std_logic;
     
-    TYPE TState IS (S0, S1);
-    SIGNAL state: TState;
+    SIGNAL state: std_logic;
     SIGNAL cnt: integer range 0 to 31; 
     
 BEGIN
@@ -60,26 +59,26 @@ BEGIN
     hysteresis: PROCESS(clk, rst) IS
     BEGIN
         IF rst=RSTDEF THEN
-            state   <= S0;
+            state   <= '0';
             qH      <= '0';
             cnt     <= 0;
         ELSIF rising_edge(clk) THEN
             IF en = '1' THEN
 				CASE state IS
-					WHEN S0 =>
+					WHEN '0' =>
 						qH <= '0';
 						IF q2 = '1' THEN
 							IF cnt < 31 THEN
 								cnt <= cnt + 1;
 							ELSE
-								state <= S1;
+								state <= '1';
 							END IF;
 						ELSE
 							IF cnt > 0 THEN
 								cnt <= cnt - 1;
 							END IF;
 						END IF;
-					WHEN S1 =>
+					WHEN '1' =>
 						qH <= '1';
 						IF q2 = '1' THEN
 							IF cnt < 31 THEN
@@ -89,14 +88,14 @@ BEGIN
 							IF cnt > 0 THEN
 								cnt <= cnt - 1;
 							ELSE
-								state <= S0;
+								state <= '0';
 							END IF;
 						END IF;
 				END CASE;
 			END IF;
             
 			IF swrst = RSTDEF THEN
-                state   <= S0;
+                state   <= '0';
 				qH      <= '0';
 				cnt     <= 0;
 			END IF;

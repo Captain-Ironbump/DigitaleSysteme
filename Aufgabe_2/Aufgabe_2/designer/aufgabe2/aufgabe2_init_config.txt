@@ -1,6 +1,6 @@
 Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Tue Jan 14 12:33:22 2025
+Date: Tue Jan 14 13:00:28 2025
 
 CCC-NE0 ( Unused )
 +-------------------+--------------------+---------------+-------+

@@ -22,7 +22,7 @@
 Starting:    C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\mbin\synplify.exe
 Install:     C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 Hostname:    F130-06
-Date:        Tue Jan 14 12:32:19 2025
+Date:        Tue Jan 14 13:01:52 2025
 Version:     V-2023.09M
 
 Arguments:   -product synplify_base aufgabe2_syn.tcl
@@ -42,3 +42,6 @@ add_dut_hierarchy is not supported in current product.
 prepare_readback is not supported in current product.
 auto_infer_blackbox is not supported in current product.
 TCL script complete: "aufgabe2_syn.tcl"
+% project -close C:/Users/lu121lin/Documents/Libro/DigitaleSysteme/Aufgabe_2/Aufgabe_2/synthesis/aufgabe2_syn.prj
+exit status=0
+License checkin: synplifypro_actel

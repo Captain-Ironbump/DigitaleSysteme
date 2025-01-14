@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: F130-06
 
-# Tue Jan 14 12:29:17 2025
+# Tue Jan 14 12:59:49 2025
 
 #Implementation: synthesis
 
@@ -41,6 +41,7 @@ Synopsys VHDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 0
 
 @N|Running in 64-bit mode
 @N:"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd":5:7:5:14|Top entity is set to aufgabe2.
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd changed - recompiling
 File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd changed - recompiling
 File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd'.
@@ -50,7 +51,7 @@ File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd'.
 VHDL syntax check successful!
-File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd changed - recompiling
+File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd":5:7:5:14|Synthesizing work.aufgabe2.structure.
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd":5:7:5:15|Synthesizing work.hex4x7seg.struktur.
@@ -63,7 +64,6 @@ Running optimization stage 1 on std_counter .......
 Finished optimization stage 1 on std_counter (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd":7:7:7:17|Synthesizing work.sync_module.behavior.
 @N: CD630 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd":6:7:6:17|Synthesizing work.sync_buffer.behavior.
-@N: CD233 :"C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd":28:16:28:17|Using sequential encoding for type tstate.
 Post processing for work.sync_buffer.behavior
 Running optimization stage 1 on sync_buffer .......
 Finished optimization stage 1 on sync_buffer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
@@ -95,7 +95,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:29:18 2025
+# Tue Jan 14 12:59:50 2025
 
 ###########################################################]
 ###########################################################[
@@ -117,12 +117,12 @@ Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan
 @N|Running in 64-bit mode
 File C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\Aufgabe_2\Aufgabe_2\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:29:18 2025
+# Tue Jan 14 12:59:50 2025
 
 ###########################################################]
 
@@ -137,7 +137,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:29:18 2025
+# Tue Jan 14 12:59:50 2025
 
 ###########################################################]
 ###########################################################[
@@ -164,12 +164,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 14 12:29:19 2025
+# Tue Jan 14 12:59:51 2025
 
 ###########################################################]
 Premap Report
 
-# Tue Jan 14 12:29:19 2025
+# Tue Jan 14 12:59:51 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -251,7 +251,7 @@ Clock            Load      Pin           Seq Example        Seq Example       Co
 aufgabe2|clk     80        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================
 
-@W: MT530 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_2\sync_buffer.vhd":65:8:65:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_2\sync_buffer.vhd":61:8:61:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -260,22 +260,22 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 Pre-mapping successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 252MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jan 14 12:29:20 2025
+# Tue Jan 14 12:59:52 2025
 
 ###########################################################]
 Map & Optimize Report
 
-# Tue Jan 14 12:29:20 2025
+# Tue Jan 14 12:59:52 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -323,7 +323,7 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 252MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
@@ -397,7 +397,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Jan 14 12:29:21 2025
+# Timing report written on Tue Jan 14 12:59:53 2025
 #
 
 
@@ -599,6 +599,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 257MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jan 14 12:29:21 2025
+# Tue Jan 14 12:59:53 2025
 
 ###########################################################]

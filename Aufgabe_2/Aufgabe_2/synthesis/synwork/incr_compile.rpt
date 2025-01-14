@@ -15,13 +15,13 @@ Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-10       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd (2024-11-26 12:47:40, 2025-01-14 12:26:07)
+14       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd (2025-01-14 12:56:57, 2025-01-14 12:59:47)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
-2        work.hex4x7seg.struktur may have changed because the following files changed:
-                        C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd (2024-11-26 12:47:40, 2025-01-14 12:26:07) <-- (architecture and entity definition)
+6        work.sync_buffer.behavior may have changed because the following files changed:
+                        C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd (2025-01-14 12:56:57, 2025-01-14 12:59:47) <-- (architecture and entity definition)
 
 *******************************************************************
 Unmodified files: 15
@@ -36,20 +36,20 @@ FID:  path (timestamp)
 7        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd\hyperents.vhd (2024-01-04 17:04:42)
 8        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (2024-01-04 17:04:42)
 9        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vhd\umr_capim.vhd (2024-01-04 17:04:42)
+10       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_1\hex4x7seg.vhd (2025-01-14 12:26:07)
 11       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\aufgabe2.vhd (2025-01-14 11:43:05)
 12       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\lib\lfsr_lib.vhd (2025-01-14 12:07:37)
-13       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd (2025-01-14 11:54:03)
-14       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_buffer.vhd (2025-01-14 11:50:53)
-15       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd (2025-01-14 11:55:23)
+13       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\std_counter.vhd (2025-01-14 12:40:36)
+15       C:\Users\lu121lin\Documents\Libro\DigitaleSysteme\VorlesungsSkripte\Aufgabe_2\sync_module.vhd (2025-01-14 12:40:00)
 
 *******************************************************************
 Unchanged modules: 8
 MID:  lib.cell.view
 0        work.aufgabe2.structure
 1        work.aufgabe2.vhdl
+2        work.hex4x7seg.struktur
+3        work.hex4x7seg.vhdl
 4        work.std_counter.behavior
 5        work.std_counter.vhdl
-6        work.sync_buffer.behavior
-7        work.sync_buffer.vhdl
 8        work.sync_module.behavior
 9        work.sync_module.vhdl

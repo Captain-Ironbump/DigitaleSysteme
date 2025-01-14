@@ -1,4 +1,4 @@
-# Tue Jan 14 12:29:19 2025
+# Tue Jan 14 12:59:51 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -80,7 +80,7 @@ Clock            Load      Pin           Seq Example        Seq Example       Co
 aufgabe2|clk     80        clk(port)     u3.reg[13:0].C     -                 -            
 ===========================================================================================
 
-@W: MT530 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_2\sync_buffer.vhd":65:8:65:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lu121lin\documents\libro\digitalesysteme\vorlesungsskripte\aufgabe_2\sync_buffer.vhd":61:8:61:9|Found inferred clock aufgabe2|clk which controls 80 sequential elements including u1.buf1.cnt[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -89,16 +89,16 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 Pre-mapping successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 252MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jan 14 12:29:20 2025
+# Tue Jan 14 12:59:52 2025
 
 ###########################################################]
